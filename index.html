@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML5 Canvas and CSS3 Graphics -- Introduction</title>
+		<style>
+			#text1{
+				font-size: 24pt;
+				text-shadow: 2px 4px 5px #0000ff;
+			}
+			#text2{
+				font-size: 32pt;
+				text-shadow: 0px 1px 6px #000000,
+				             4px 5px 6px #ff0000;
+			}
+			#text3{
+				font-size: 40pt;
+				text-shadow: 0px 1px 6px #ffffff,
+				             2px 4px 4px #00ffff,
+				             4px 5px 6px #0000ff,
+				             0px 0px 10px #444444,
+				             0px 0px 20px #884444,
+				             0px 0px 30px #aa4444,
+				             0px 0px 40px #ff4444;
+			}
+			#text4{
+				position: absolute;
+				top: 200px;
+				right: 200px;
+				font-size: 48pt;
+				text-shadow: 0px 1px 6px #ffffff,
+				             2px 4px 4px #00ffff,
+				             4px 5px 6px #0000ff,
+				             0px 0px 10px #000000,
+				             0px 0px 20px #444488,
+				             0px 0px 30px #aa44aa,
+				             0px 0px 40px #ffffff;
+				-webkit-transform: rotate(-90deg);
+			}
+			#text5{
+				position: absolute;
+				left: 0px;
+				font-size: 48pt;
+				text-shadow: 2px 4px 5px #0000ff;
+				-webkit-transform: rotate(-10deg);
+			}
+			#text6{
+				float: left;
+				font-size: 48pt;
+				text-shadow: 2px 4px 5px #ff0000;
+				-webkit-transform: rotate(-170deg);
+			}
+			#text1:hover, #text2:hover, #text3:hover, #text4:hover, #text5:hover, #text6:hover{
+				-webkit-transform: scale(2) rotate(-45deg);
+				-transform: scale(2) rotate(-45deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="text1">
+			Line One Shadow Effect
+		</div>
+		<div id="text2">
+			Line Two Shadow Effect
+		</div>
+		<div id="text3">
+			Line Three Vivid Effect
+		</div>
+		<div id="text4">
+			<span class="dd">15</span>
+			<span class="mm">November</span>
+			<span class="yy">2014</span>
+		</div>
+		<div id="text5">
+			<span class="dd">16</span>
+			<span class="mm">November</span>
+			<span class="yy">2014</span>
+		</div>
+		<div id="text6">
+			<span class="dd">17</span>
+			<span class="mm">November</span>
+			<span class="yy">2014</span>
+		</div>
+	</body>
+</html>
